@@ -149,11 +149,18 @@
     if(persist){try{localStorage.setItem('mahmoud-portfolio-language',lang);}catch(_){}}
     return lang;
   }
-  function getPreference(){
-    const query=new URLSearchParams(location.search).get('lang');
-    if(query==='ar'||query==='en')return query;
-    try{return localStorage.getItem('mahmoud-portfolio-language')==='ar'?'ar':'en';}catch(_){return'en';}
+  function getPreference() {
+  const query = new URLSearchParams(location.search).get('lang');
+
+  if (query === 'ar' || query === 'en') return query;
+
+  try {
+    const saved = localStorage.getItem('mahmoud-portfolio-language');
+    return saved === 'en' ? 'en' : 'ar';
+  } catch (_) {
+    return 'ar';
   }
+}
   function initStatic(){
     document.querySelectorAll('[data-locale]').forEach(btn=>btn.addEventListener('click',()=>setLanguage(btn.dataset.locale)));
     setLanguage(getPreference(),{persist:false});
