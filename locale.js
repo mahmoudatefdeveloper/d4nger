@@ -63,7 +63,7 @@
     ['#about-title em', 'وفهم للبيزنس.'],
     ['.about-lead', 'أنا مش خريج حاسبات. درست تجارة، وبدأ شغفي بالبرمجة، ومن ساعتها وأنا بتعلم وببني مشاريع.'],
     ['.about-content > p:nth-of-type(2)', ['أنا ', '، وبعد ما جرّبت تقنيات مختلفة ركزت مدة طويلة على Python وDjango وFlask، وبعدها نقلت تركيزي لمسار JavaScript Full-Stack.']],
-    ['.about-content > p:nth-of-type(2) strong', 'خريج كلية التجارة — شعبة اللغة الإنجليزية، جامعة الأزهر،  '],
+    ['.about-content > p:nth-of-type(2) strong', 'خريج كلية التجارة — شعبة اللغة الإنجليزية، جامعة الأزهر '],
     ['.about-content > p:nth-of-type(3)', ['حاليًا بتعلم React، وبعده Next.js وNode.js في خطتي. كمان اشتغلت مع فرق تسويق واتدربت في ', '، وده ساعدني أفهم الشركات محتاجة إيه غير مجرد موقع شكله حلو.']],
     ['.about-notes > div:nth-child(1) span', 'أساس خبرتي'],
     ['.about-notes > div:nth-child(2) span', 'حاليًا'],
